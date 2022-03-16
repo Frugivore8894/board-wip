@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Fjordboard</title>
         <meta name="description" content="fjordboard.com home page" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
 
       <main className="bg-[#F0BA36] h-screen flex flex-col bg-center bg-contain bg-no-repeat bg-[url('/background.png')]">

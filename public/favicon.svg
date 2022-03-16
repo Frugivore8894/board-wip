@@ -1,9 +1,6 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
-  <rect x="20" y="20" width="30" height="200" style="" fill="#ffffff"></rect>
-  <rect x="190" y="20" width="30" height="200" style="" fill="#ffffff"></rect>
-  <rect x="130" y="20" width="61" height="30" style="" fill="#ffffff"></rect>
-  <rect x="130" y="190" width="61" height="30" style="" fill="#ffffff"></rect>
-  <rect x="49" y="190" width="61" height="30" style="" fill="#ffffff"></rect>
-  <rect x="49" y="20" width="61" height="30" style="" fill="#ffffff"></rect>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Fusion 360, Shaper Origin Export Add-In, Version 1.5.0  -->
+<svg enable-background="new 0 0 31.5275 13.725" height="13.725cm" shaper:fusionaddin="version:1.5.0" version="1.1" viewBox="0 0 31.5275 13.725" width="31.5275cm" x="0cm" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:shaper="http://www.shapertools.com/namespaces/shaper" xmlns:xlink="http://www.w3.org/1999/xlink" y="0cm">
+<path d="M31.4775,1 L31.4775,13.325 A0.4,0.4 0 0,1 31.0775,13.725 L0.35,13.725 A0.4,0.4 90 0,1 -0.05,13.325 L-0.05,1 -0.05,0.05 A0.05,0.05 180 0,1 -0,0 L1.5,0 29.9275,0 31.4275,0 A0.05,0.05 270 0,1 31.4775,0.05 L31.4775,1z" fill="rgb(0,0,0)" shaper:cutDepth="0.0115" shaper:pathType="exterior" transform="matrix(1,0,0,-1,0.05,13.725)" vector-effect="non-scaling-stroke" />
+<path d="M6.26,1.5 A0.1,0.1 270 0,0 6.16,1.6 L6.16,3.15 A0.25,0.25 0 0,1 5.91,3.4 L2.705,3.4 A0.25,0.25 90 0,1 2.455,3.15 L2.455,1.6 A0.1,0.1 0 0,0 2.355,1.5 L1.7648898,1.5 1.1351102,1.5 0.55,1.5 A0.1,0.1 270 0,0 0.45,1.6 L0.45,3.505 2.1,3.505 A0.25,0.25 270 0,1 2.35,3.755 L2.35,10.77 A0.25,0.25 0 0,1 2.1,11.02 L0.55,11.02 A0.1,0.1 270 0,0 0.45,11.12 L0.45,12.925 A0.1,0.1 180 0,0 0.55,13.025 L1.1351102,13.025 1.7648898,13.025 15.4226102,13.025 16.0523898,13.025 29.7101102,13.025 30.3398898,13.025 30.925,13.025 A0.1,0.1 90 0,0 31.025,12.925 L31.025,1.6 A0.1,0.1 0 0,0 30.925,1.5 L30.3398898,1.5 29.7101102,1.5 16.0523898,1.5 15.4226102,1.5 6.26,1.5z" fill="rgb(255,255,255)" shaper:cutDepth="0.0115" shaper:pathType="interior" stroke="rgb(0,0,0)" transform="matrix(1,0,0,-1,0.05,13.725)" vector-effect="non-scaling-stroke" />
 </svg>
