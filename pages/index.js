@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
 
-      <main className="bg-[#F0BA36] h-screen flex flex-col bg-center bg-contain bg-no-repeat bg-[url('/background.png')]">
+      <main className="bg-[#F0BA36] h-screen flex flex-col bg-center bg-contain bg-no-repeat bg-[url('/bg.png')]">
         <div className="flex-grow"></div>
         <h1 className="text-gray-200 text-center font-extrabold text-5xl">
           fjordboard.com is currently a WIP
