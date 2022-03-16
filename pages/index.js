@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import image from '../public/background.png'
+import bg from "../public/background.PNG";
 
 export default function Home() {
   return (
