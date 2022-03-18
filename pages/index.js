@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
 
-      <main className="bg-[#F0BA36] min-h-screen h-[-webkit-fill-available] bg-center bg-contain bg-no-repeat bg-[url('/bg.png')]">
+      <main className="bg-[#F0BA36] h-[var(--vh)] bg-center bg-contain bg-no-repeat bg-[url('/bg.png')]">
         <h1 className="text-gray-200 text-center font-extrabold text-5xl absolute bottom-[50%] w-screen transform translate-y-[50%]">
           fjordboard.com is currently a WIP
         </h1>
