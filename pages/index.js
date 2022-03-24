@@ -14,14 +14,18 @@ export default function Home() {
         <h1 className="text-gray-200 text-center font-extrabold text-5xl absolute bottom-[55%] w-screen transform translate-y-[50%]">
           fjordboard.com is currently a WIP
         </h1>
-        <h2>
-          <a
-            className="cursor-pointer text-white rounded-md shadow-md hover:shadow focus:shadow-sm bg-sky-600 hover:bg-[#0A9ADE] focus:bg-sky-500 text-center font-bold text-3xl absolute bottom-[33%] left-[50%] transform translate-x-[-50%] translate-y-[50%] p-3 px-12 transition-all duration-300"
-            href="https://geekhack.org/index.php?topic=116532.0"
-          >
-            Interest Check
-          </a>
-        </h2>
+        <div className="text-center absolute bottom-[33%] left-[50%] transform translate-x-[-50%] translate-y-[50%]">
+          <h2 className="cursor-pointer text-white rounded-md shadow-md hover:shadow focus:shadow-sm bg-sky-600 hover:bg-[#0A9ADE] focus:bg-sky-500 text-center font-bold text-3xl p-3 w-80 transition-all duration-300 mb-4 mx-auto">
+            <a href="https://geekhack.org/index.php?topic=116532.0">
+              Interest Check
+            </a>
+          </h2>
+          <h3 className="cursor-pointer text-white rounded-md shadow-md hover:shadow focus:shadow-sm bg-sky-600 hover:bg-[#0A9ADE] focus:bg-sky-500 text-center font-bold text-2xl p-1 w-48 transition-all duration-300 mt-4 mx-auto">
+            <a href="https://drive.google.com/drive/folders/1EVfQUzCv__ifSMwsICYxO5nGqKgJMd4c?usp=sharing">
+              Renders
+            </a>
+          </h3>
+        </div>
       </main>
 
       <footer>
@@ -36,9 +40,6 @@ export default function Home() {
               </div>
               <span>Discord</span>
             </a>
-          </h3>
-          <h3 className="text-slate-200 underline p-3">
-            <a href="https://drive.google.com/drive/folders/1EVfQUzCv__ifSMwsICYxO5nGqKgJMd4c?usp=sharing">Renders</a>
           </h3>
         </div>
       </footer>
