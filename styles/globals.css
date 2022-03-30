@@ -3,10 +3,6 @@ html, body {
   margin: 0;
 }
 
-*, html, body {
-  overflow-x: hidden !important;
-}
-
-*, html, body {
-  overflow-y: hidden !important;
+* {
+  overflow: visible !important;
 }

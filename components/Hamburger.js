@@ -40,12 +40,12 @@ export default function Hamburger(props) {
             opacity: open ? 0 : 1,
             x: open && !reducedMotion ? 100 : 0,
             transitionEnd: {
-              visibility: open ? "hidden" : "visible",
+              display: open ? "none" : "flex",
             },
-            visibility: open ? "visible" : "visible",
+            display: open ? "flex" : "flex",
           }}
           transition={{ type: "ease-in" }}
-          className="bg-white shadow py-2 absolute right-0 mt-2 opacity-0 rounded flex flex-col"
+          className="bg-white shadow py-2 absolute right-0 mt-2 opacity-0 rounded flex-col"
         >
           {props.urls.map((item) => (
             <Link key={item.name} href={item.url} passHref>
