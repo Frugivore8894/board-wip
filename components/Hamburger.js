@@ -11,7 +11,7 @@ export default function Hamburger(props) {
 
   return (
     <button
-      className="absolute top-0 right-0 m-4 cursor-pointer"
+      className="absolute top-0 right-0 m-4 cursor-pointer z-50"
       onClick={() => setOpen(!open)}
     >
       <div className="relative">

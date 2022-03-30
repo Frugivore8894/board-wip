@@ -9,6 +9,9 @@ export default function Home() {
         <title>Fjordboard</title>
         <meta name="description" content="fjordboard.com home page" />
         <link rel="icon" type="image/png" href="/favicon.png" />
+        <style>
+          
+        </style>
       </Head>
 
       <Hamburger
@@ -17,7 +20,7 @@ export default function Home() {
         ]}
       />
 
-      <main className="bg-[#F0BA36] h-[var(--vh)] bg-center bg-contain bg-no-repeat bg-[url('/bg.png')]">
+      <main className="absolute w-screen z-0 bg-[#F0BA36] h-[var(--vh)] bg-center bg-contain bg-no-repeat bg-[url('/bg.png')]">
         <h1 className="text-gray-200 text-center font-extrabold text-5xl absolute bottom-[55%] w-screen transform translate-y-[50%] py-1">
           fjordboard.com is currently a WIP
         </h1>
