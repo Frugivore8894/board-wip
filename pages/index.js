@@ -14,9 +14,6 @@ export default function Home() {
       <Hamburger
         urls={[
           { url: "/faq", name: "FAQ" },
-          { url: "/faq", name: "FAQ" },
-          { url: "/faq", name: "FAQ" },
-          { url: "/faq", name: "FAQ" },
         ]}
       />
 
