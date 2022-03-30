@@ -40,11 +40,11 @@ export default function Hamburger(props) {
             x: open ? 100 : 0,
           }}
           transition={{ type: "ease-in" }}
-          className="bg-white shadow p-2 px-8 absolute right-0 mt-2 opacity-0"
+          className="bg-white shadow py-2 absolute right-0 mt-2 opacity-0 rounded flex flex-col"
         >
           {props.urls.map((item) => (
             <Link key={item.name} href={item.url} passHref>
-              <a className="underline text-xl text-blue-700 hover:text-blue-600 focus:text-blue-500">
+              <a className="bg-white hover:bg-slate-100 focus:bg-slate-200 py-1 px-10 text-xl text-stone-700">
                 {item.name}
               </a>
             </Link>

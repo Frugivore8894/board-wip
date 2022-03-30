@@ -11,7 +11,14 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
 
-      <Hamburger urls={[{url:"/faq", name:"FAQ"}]} />
+      <Hamburger
+        urls={[
+          { url: "/faq", name: "FAQ" },
+          { url: "/faq", name: "FAQ" },
+          { url: "/faq", name: "FAQ" },
+          { url: "/faq", name: "FAQ" },
+        ]}
+      />
 
       <main className="bg-[#F0BA36] h-[var(--vh)] bg-center bg-contain bg-no-repeat bg-[url('/bg.png')]">
         <h1 className="text-gray-200 text-center font-extrabold text-5xl absolute bottom-[55%] w-screen transform translate-y-[50%]">
