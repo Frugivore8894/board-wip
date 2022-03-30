@@ -9,7 +9,7 @@ export default function Hamburger(props) {
   const [open, setOpen] = useState(true);
 
   return (
-    <div
+    <button
       className="absolute top-0 right-0 m-4 cursor-pointer"
       onClick={() => setOpen(!open)}
     >
@@ -40,15 +40,17 @@ export default function Hamburger(props) {
             x: open ? 100 : 0,
           }}
           transition={{ type: "ease-in" }}
-          className="bg-white shadow p-2 px-8 absolute right-0 mt-2"
+          className="bg-white shadow p-2 px-8 absolute right-0 mt-2 opacity-0"
         >
-          <Link href="/faq" passHref>
-            <span className="underline text-xl text-blue-700 hover:text-blue-600 focus:text-blue-500">
-              FAQ
-            </span>
-          </Link>
+          {props.urls.map((item) => (
+            <Link key={item.name} href={item.url} passHref>
+              <a className="underline text-xl text-blue-700 hover:text-blue-600 focus:text-blue-500">
+                {item.name}
+              </a>
+            </Link>
+          ))}
         </motion.div>
       </div>
-    </div>
+    </button>
   );
 }
