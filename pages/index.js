@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { BsDiscord } from "react-icons/bs";
+import Hamburger from "../components/Hamburger"
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
         <meta name="description" content="fjordboard.com home page" />
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
+
+      <Hamburger />
 
       <main className="bg-[#F0BA36] h-[var(--vh)] bg-center bg-contain bg-no-repeat bg-[url('/bg.png')]">
         <h1 className="text-gray-200 text-center font-extrabold text-5xl absolute bottom-[55%] w-screen transform translate-y-[50%]">
