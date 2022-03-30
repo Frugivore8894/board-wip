@@ -21,7 +21,7 @@ export default function Home() {
             </a>
           </h2>
           <h3 className="cursor-pointer text-white rounded-md shadow-md hover:shadow focus:shadow-sm bg-sky-600 hover:bg-[#0A9ADE] focus:bg-sky-500 text-center font-bold text-2xl p-1 w-48 transition-all duration-300 mt-16 mx-auto">
-            <a href="https://drive.google.com/drive/folders/1EVfQUzCv__ifSMwsICYxO5nGqKgJMd4c?usp=sharing">
+            <a href="https://drive.google.com/drive/folders/1uJiZu0eMZ4Eqs5un8XuQTqbfWQAKhytT?usp=sharing">
               Renders
             </a>
           </h3>
