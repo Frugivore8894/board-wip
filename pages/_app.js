@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import 'tailwindcss/tailwind.css'
+import { MotionConfig } from "framer-motion";
 
 import { useEffect } from 'react';
 
@@ -14,7 +15,12 @@ function MyApp({ Component, pageProps }) {
     window.addEventListener("resize", fixHeight);
     return () => { window.removeEventListener("resize", fixHeight); }
   })
-  return <Component {...pageProps} />
+
+  return (
+    <MotionConfig reducedMotion="user">
+      <Component {...pageProps} />
+    </MotionConfig>
+  );
 }
 
 export default MyApp

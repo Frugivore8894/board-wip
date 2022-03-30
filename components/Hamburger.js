@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { useState } from "react";
 import Link from "next/link";
 
@@ -7,6 +7,7 @@ const x = 13;
 
 export default function Hamburger(props) {
   const [open, setOpen] = useState(true);
+  const reducedMotion = useReducedMotion();
 
   return (
     <button
@@ -37,7 +38,11 @@ export default function Hamburger(props) {
         <motion.div
           animate={{
             opacity: open ? 0 : 1,
-            x: open ? 100 : 0,
+            x: open && !reducedMotion ? 100 : 0,
+            transitionEnd: {
+              visibility: open ? "hidden" : "visible",
+            },
+            visibility: open ? "visible" : "visible",
           }}
           transition={{ type: "ease-in" }}
           className="bg-white shadow py-2 absolute right-0 mt-2 opacity-0 rounded flex flex-col"
