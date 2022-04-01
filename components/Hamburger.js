@@ -13,6 +13,7 @@ export default function Hamburger(props) {
     <button
       className="absolute top-0 right-0 m-4 cursor-pointer z-50"
       onClick={() => setOpen(!open)}
+      aria-label="Open Navigation Menu"
     >
       <div className="relative">
         <motion.div
