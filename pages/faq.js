@@ -22,7 +22,7 @@ export default function Home() {
       <main className="flex flew-row">
         <div className="flex-grow"></div>
         <article className="prose p-8 m-8 bg-slate-50 shadow w-full md:max-w-none md:mx-44">
-          <h1>Q: Why the name?</h1>
+          <h2>Q: Why the name?</h2>
           <p>
             A: For as long as I can remember I have always wanted to visit a
             fjord. I also love the name and saying it correctly always freaks
@@ -30,7 +30,7 @@ export default function Home() {
             to name the project I thought “well fjord and board rhyme…” and
             there you go.
           </p>
-          <h1>Q: Why the odd layout?</h1>
+          <h2>Q: Why the odd layout?</h2>
           <p>
             A: TLDR: because of my needs. Since I got into this hobby about two
             years ago I have only had 75% boards. I can’t live with any smaller
@@ -48,24 +48,24 @@ export default function Home() {
             came back around and realized it was a great idea. There is a long
             but actually brief explanation of how this layout came to be.
           </p>
-          <h1>Q: Why no knobs?</h1>
+          <h2>Q: Why no knobs?</h2>
           <p>
             A: Personally I think knobs are cool but overused. I get that they
             are more space-efficient than a slider but a slider also gives you a
             very different user experience than a knob.
           </p>
-          <h1>Q: Will there be more?</h1>
+          <h2>Q: Will there be more?</h2>
           <p>
             A: Yes! I don’t plan on stopping; this is just the first of many
             cool things to some!
           </p>
-          <h1>Q: Will you release plate or other files?</h1>
+          <h2>Q: Will you release plate or other files?</h2>
           <p>
             A: Partial yes. I will release plate files Because I am only
             providing an Fr4 plate option. As for other files, I will release
             slider handle files so you can make custom handles.
           </p>
-          <h1>Q: How do I contact you?</h1>
+          <h2>Q: How do I contact you?</h2>
           <p>
             A: You can email me at{" "}
             <a href="mailto:frugivore@fjordboard.com">
