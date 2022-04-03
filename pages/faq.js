@@ -8,13 +8,13 @@ export default function Home() {
       <Head>
         <title>Fjordboard</title>
         <meta name="description" content="fjordboard.com home page" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/webp" href="/favicon.webp" />
       </Head>
 
       <Hamburger urls={[{ url: "/", name: "Home" }]} />
 
       <header>
-        <h1 className="bg-top md:bg-right-top bg-fill bg-no-repeat bg-[url('/K8.png')] py-36 text-gray-200 text-center font-extrabold text-7xl w-screen">
+        <h1 className="bg-top md:bg-right-top bg-fill bg-no-repeat bg-[url('/K8.webp')] py-36 text-gray-200 text-center font-extrabold text-7xl w-screen">
           FAQ
         </h1>
       </header>
