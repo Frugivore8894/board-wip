@@ -12,7 +12,7 @@ export default function Home() {
         <style></style>
       </Head>
 
-      <Hamburger urls={[{ url: "/faq", name: "FAQ" }]} />
+      <Hamburger urls={[{ url: "/faq", name: "FAQ" }, { url: "/gallery", name: "Gallery" }]} />
 
       <main className="absolute w-screen z-0 bg-[#F0BA36] h-[var(--vh)] bg-center bg-contain bg-no-repeat bg-[url('/bg.webp')]">
         <h1 className="text-gray-200 text-center font-extrabold text-5xl absolute bottom-[55%] w-screen transform translate-y-[50%] py-1">

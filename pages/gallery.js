@@ -14,16 +14,33 @@ export default function Home() {
         <style></style>
       </Head>
 
-      <Hamburger urls={[{ url: "/faq", name: "FAQ" }]} />
+      <Hamburger
+        urls={[
+          { url: "/faq", name: "FAQ" },
+          { url: "/", name: "Home" },
+        ]}
+      />
+
+      <header>
+        <h1 className="bg-top md:bg-right-top bg-fill bg-no-repeat bg-[url('/topdown.webp')] py-36 text-gray-100 text-center font-extrabold text-7xl w-screen">
+          Gallery
+        </h1>
+      </header>
 
       <main className="flex flex-row flex-wrap w-screen p-2">
         {jsonData.map((item) => (
           <div
             key={item.name}
-            className="h-[300px] relative flex-shrink flex-grow m-2 shadow"
+            className="h-[300px] relative flex-shrink flex-grow m-2 shadow cursor-pointer"
             style={{ width: (300 / item.height) * item.width }}
           >
-            <Image src={item.url} alt={item.name} layout="fill" />
+            <Image
+              src={item.url}
+              alt={item.name}
+              layout="fill"
+              placeholder="blur"
+              blurDataURL={item.url}
+            />
           </div>
         ))}
       </main>

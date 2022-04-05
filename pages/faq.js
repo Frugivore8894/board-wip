@@ -11,7 +11,12 @@ export default function Home() {
         <link rel="icon" type="image/webp" href="/favicon.webp" />
       </Head>
 
-      <Hamburger urls={[{ url: "/", name: "Home" }]} />
+      <Hamburger
+        urls={[
+          { url: "/", name: "Home" },
+          { url: "/gallery", name: "Gallery" },
+        ]}
+      />
 
       <header>
         <h1 className="bg-top md:bg-right-top bg-fill bg-no-repeat bg-[url('/K8.webp')] py-36 text-gray-200 text-center font-extrabold text-7xl w-screen">
