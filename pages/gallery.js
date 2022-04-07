@@ -4,7 +4,9 @@ import { BsDiscord } from "react-icons/bs";
 import Hamburger from "../components/Hamburger";
 import jsonData from "../list.json";
 
-export default function Home() {
+const contentful = require("contentful");
+
+export default function Home(props) {
   return (
     <div>
       <Head>
@@ -28,7 +30,7 @@ export default function Home() {
       </header>
 
       <main className="flex flex-row flex-wrap w-screen p-2">
-        {jsonData.map((item) => (
+        {props.images.map((item) => (
           <div
             key={item.name}
             className="h-[300px] relative flex-shrink flex-grow m-2 shadow cursor-pointer"
@@ -62,4 +64,24 @@ export default function Home() {
       </footer>
     </div>
   );
+}
+
+export async function getStaticProps(context) {
+  const client = contentful.createClient({
+    space: "akrhtr0hzzw4",
+    accessToken: process.env.API_KEY,
+  });
+
+  const response = await client.getAssets();
+
+  return {
+    props: {
+      images: response.items.map((item) => ({
+        url: "https:" + item.fields.file.url,
+        width: item.fields.file.details.image.width,
+        height: item.fields.file.details.image.height,
+      })),
+    },
+    revalidate: 3000,
+  };
 }
