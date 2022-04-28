@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import { BsDiscord } from "react-icons/bs";
+import { BsDiscord } from "react-icons/bs"
 import Hamburger from "../components/Hamburger"
+import discord from "../config.json"
 
 export default function Home() {
   return (
@@ -9,7 +10,6 @@ export default function Home() {
         <title>Fjordboard</title>
         <meta name="description" content="fjordboard.com home page" />
         <link rel="icon" type="image/webp" href="/favicon.webp" />
-        <style></style>
       </Head>
 
       <Hamburger urls={[{ url: "/faq", name: "FAQ" }, { url: "/gallery", name: "Gallery" }]} />
@@ -40,7 +40,7 @@ export default function Home() {
             <a href="mailto:frugivore@fjordboard.com">Contact</a>
           </h3>
           <h3 className="text-slate-200 underline p-3">
-            <a href="https://discord.gg/ceeAvdfD" className="flex flex-row">
+            <a href={discord.discord} className="flex flex-row">
               <div className="underline p-1 h-[24px] flex flex-col justify-center content-center place-content-center">
                 <BsDiscord />
               </div>

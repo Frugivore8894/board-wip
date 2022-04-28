@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { BsDiscord } from "react-icons/bs";
 import Hamburger from "../components/Hamburger";
+import discord from "../config.json";
 
 export default function Home() {
   return (
@@ -89,7 +90,7 @@ export default function Home() {
             <a href="mailto:frugivore@fjordboard.com">Contact</a>
           </h3>
           <h3 className="text-slate-600 underline p-3">
-            <a href="https://discord.gg/yk5Z3GW8" className="flex flex-row">
+            <a href={discord.discord} className="flex flex-row">
               <div className="underline p-1 h-[24px] flex flex-col justify-center content-center place-content-center">
                 <BsDiscord />
               </div>

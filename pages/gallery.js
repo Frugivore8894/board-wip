@@ -3,6 +3,7 @@ import Image from "next/image";
 import { BsDiscord } from "react-icons/bs";
 import Hamburger from "../components/Hamburger";
 import jsonData from "../list.json";
+import discord from "../config.json";
 
 const contentful = require("contentful");
 
@@ -53,7 +54,7 @@ export default function Home(props) {
             <a href="mailto:frugivore@fjordboard.com">Contact</a>
           </h3>
           <h3 className="text-slate-200 underline p-3">
-            <a href="https://discord.gg/ceeAvdfD" className="flex flex-row">
+            <a href={discord.discord} className="flex flex-row">
               <div className="underline p-1 h-[24px] flex flex-col justify-center content-center place-content-center">
                 <BsDiscord />
               </div>
