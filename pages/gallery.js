@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { BsDiscord } from "react-icons/bs";
 import Hamburger from "../components/Hamburger";
-import jsonData from "../list.json";
 import discord from "../config.json";
 
 const contentful = require("contentful");
